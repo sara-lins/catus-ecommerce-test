@@ -1,0 +1,79 @@
+@import 'src/app/styles/variables.sass'
+
+header 
+  width: 100%
+  height: 5.875rem
+  padding: 1rem 5rem
+
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  background-color: $details-gray-color
+  box-shadow: 0px 7px 15px -4px #80808078
+
+
+header a
+  all: unset
+
+
+header nav ul
+  width: fit-content
+  height: 3rem
+
+  display: flex
+  justify-content: space-between
+  align-items: center
+  gap: 3rem
+
+
+
+header nav ul li
+  width: 3rem
+header nav ul li:hover
+ cursor: pointer
+ font-weight: bold
+
+
+
+header div
+  width: 20rem
+  height: 3rem
+
+  display: flex
+  align-items: center
+  gap: 1.2rem
+
+header div form 
+  height: 100%
+
+header div form search
+  width: fit-content
+
+  display: flex
+  gap: 0.3rem
+  height: 100%
+
+header div form search input
+  width: 13rem
+  height: 2.5rem
+
+  display: flex
+  align-items: flex-end
+  padding-top: 0.4rem
+
+  border-bottom: 1.6px solid black
+  background-color: transparent
+  outline: none
+header div form search input::placeholder
+  font-size: 1rem
+  color: #8C8C8C
+
+header div button
+  padding: 0.5rem
+  height: 100%
+
+  border-radius: 50%
+header div button:hover
+  background-color: #80808033
+  cursor: pointer
