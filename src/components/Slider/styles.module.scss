@@ -45,6 +45,9 @@
   padding: 1rem;
   overflow-x: scroll;
 
+  scrollbar-color: transparent;
+  scrollbar-width: thin;
+
   @media (min-width: 1024px) {
     display: flex;
     justify-content: center;
@@ -53,6 +56,18 @@
     overflow-y: hidden;
     overflow-x: hidden;
   }
+}
+
+.products::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+.products::-webkit-scrollbar-track {
+  background: transparent;
+}
+.products::-webkit-scrollbar-thumb {
+  background-color: #32bcad;
+  border-radius: 8px;
 }
 
 .productsContainer {
