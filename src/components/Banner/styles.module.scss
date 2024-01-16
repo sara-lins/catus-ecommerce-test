@@ -1,0 +1,86 @@
+@import "src/app/styles/variables.sass";
+
+.section {
+  width: 100%;
+  height: 8.245rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+
+  @media (min-width: 688px) {
+    width: 90%;
+    height: 17rem;
+    padding: 1rem;
+  }
+  @media (min-width: 1024px) {
+    width: 90%;
+    height: 27rem;
+    padding: 1rem;
+  }
+}
+
+.section span {
+  width: 100%;
+  max-width: 18.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem;
+
+  @media (min-width: 688px) {
+    width: 100%;
+    max-width: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  @media (min-width: 1024px) {
+    height: 100%;
+    gap: 1.3rem;
+  }
+}
+
+.section div {
+  height: 8.245rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+
+  @media (min-width: 688px) {
+    width: fit-content;
+    height: 15.916rem;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  @media (min-width: 1024px) {
+    width: fit-content;
+    height: 25.646rem;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+  }
+}
+
+.section div img {
+  width: 6.063rem;
+  height: 100%;
+
+  @media (min-width: 688px) {
+    width: 190px;
+  }
+  @media (min-width: 1024px) {
+    width: 19.25rem;
+  }
+}
