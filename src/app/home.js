@@ -1,9 +1,10 @@
 import Header from "@/components/Header/";
 import Banner from "@/components/Banner";
+import Slider from "@/components/Slider";
+import Footer from "@/components/Footer";
 
 import styles from "./styles/home.sass";
 import ContainerHeaderMobile from "@/components/ContainerHeaderMobile";
-import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
@@ -12,8 +13,7 @@ export default function Home() {
       <ContainerHeaderMobile />
       <Banner />
       <Slider />
-      {/* <section></section>
-      <footer></footer> */}
+      <Footer />
     </main>
   );
 }
