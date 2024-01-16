@@ -1,0 +1,33 @@
+@import "src/app/styles/variables.sass";
+
+.header {
+  width: 100%;
+  height: 5.875rem;
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: $details-gray-color;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.header a {
+  all: unset;
+}
+
+.header div button {
+  padding: 0.5rem;
+  height: 100%;
+
+  border-radius: 50%;
+}
+
+.header div button:hover {
+  background-color: #80808033;
+  cursor: pointer;
+}
