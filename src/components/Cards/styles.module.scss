@@ -1,0 +1,49 @@
+@import "src/app/styles/variables.sass";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 688px) {
+  }
+
+  @media (min-width: 1024px) {
+    width: 16.75rem;
+    height: 30.938rem;
+  }
+}
+
+.card img {
+  width: 16.75rem;
+  height: 17.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.prices {
+  width: 100%;
+  color: $text-color-3;
+}
+
+.current {
+  font-size: 1.5rem;
+}
+
+.previous {
+  font-size: 0.84rem;
+  text-decoration: line-through;
+}
+
+.card button {
+  border-radius: 5px;
+  color: $text-color-1;
+  font-weight: bold;
+  background-color: $details-blue-color;
+
+  @media (min-width: 1024px) {
+    font-size: 1.02rem;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+}
