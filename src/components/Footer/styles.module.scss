@@ -1,0 +1,97 @@
+@import "src/app/styles/variables.sass";
+
+.footer {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  color: $text-color-4;
+  background-color: $bg-footer-color;
+  font-size: 0.875rem;
+
+  @media (min-width: 1024px) {
+    height: 30rem;
+
+    padding: 2rem;
+  }
+}
+
+.footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer a {
+  all: unset;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 75rem;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+  @media (min-width: 1024px) {
+  }
+}
+
+.wrapper {
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @media (min-width: 1024px) {
+    height: 14.313rem;
+  }
+}
+
+.wrapper div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.securityAssets {
+  display: flex;
+  gap: 1rem;
+}
+
+.securityAssets img {
+  width: 5.188rem;
+  height: auto;
+
+  display: flex;
+  gap: 1rem;
+
+  @media (min-width: 1024px) {
+    height: 2.313rem;
+    width: auto;
+  }
+}
+
+.paymentAssets {
+  display: flex;
+  gap: 0.188rem;
+}
+
+.paymentAssets img {
+  width: 2.375rem;
+
+  padding-bottom: 4rem;
+
+  @media (min-width: 1024px) {
+    width: 2.813rem;
+  }
+}
