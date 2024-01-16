@@ -14,15 +14,17 @@ export default function Slider() {
       </div>
 
       <div className={styles.products}>
-        {products.map((product, index) => (
-          <Cards
-            key={index}
-            image={product.image}
-            description={product.description}
-            installments={product.installments}
-            price={product.price}
-          />
-        ))}
+        <span className={styles.productsContainer}>
+          {products.map((product, index) => (
+            <Cards
+              key={index}
+              image={product.image}
+              description={product.description}
+              installments={product.installments}
+              price={product.price}
+            />
+          ))}
+        </span>
       </div>
     </section>
   );

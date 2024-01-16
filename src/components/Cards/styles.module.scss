@@ -1,13 +1,13 @@
 @import "src/app/styles/variables.sass";
 
 .card {
+  width: 12.75rem;
+  height: 25.938rem;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  @media (min-width: 688px) {
-  }
 
   @media (min-width: 1024px) {
     width: 16.75rem;
@@ -15,14 +15,26 @@
   }
 }
 
+.card span {
+  display: flex;
+  flex-direction: column;
+}
+
 .card img {
-  width: 16.75rem;
-  height: 17.5rem;
+  width: 12.75rem;
   padding-bottom: 0.3rem;
+
+  @media (min-width: 1024px) {
+    width: 16.75rem;
+    height: 17.5rem;
+    padding-bottom: 0.3rem;
+  }
 }
 
 .prices {
   width: 100%;
+  align-items: flex-start;
+  gap: 0.2rem;
   color: $text-color-3;
 }
 
@@ -36,6 +48,9 @@
 }
 
 .card button {
+  width: 100%;
+  padding: 1rem 2rem;
+
   border-radius: 5px;
   color: $text-color-1;
   font-weight: bold;
