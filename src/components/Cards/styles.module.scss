@@ -55,6 +55,7 @@
   color: $text-color-1;
   font-weight: bold;
   background-color: $details-blue-color;
+  cursor: pointer;
 
   @media (min-width: 1024px) {
     font-size: 1.02rem;

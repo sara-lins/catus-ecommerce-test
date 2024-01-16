@@ -1,14 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import styles from "./styles.module.scss";
 
 export default function HeaderMobile() {
   return (
     <header className={styles.header}>
-      <Link href="https://catus.com.br/">
+      <Link href="/">
         <picture>
           <Image
-            alt="logo Catus"
+            alt="ìcone de Menu"
             src="./icons/menu.svg"
             width={35}
             height={35}
