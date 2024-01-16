@@ -8,9 +8,7 @@ export default function Slider() {
     <section className={styles.section}>
       <div className={styles.title}>
         <h4>Oportunidades para economizar</h4>
-        <span></span>
         <span className={styles.detail}>_</span>
-        <span></span>
       </div>
 
       <div className={styles.products}>

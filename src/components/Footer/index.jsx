@@ -40,13 +40,34 @@ export default function Footer() {
         <div className={styles.wrapper}>
           <h3>Formas de Pagamento</h3>
           <span className={styles.paymentAssets}>
-            <img src="./assets/payments/visa.webp" alt="" />
-            <img src="./assets/payments/mastercard.webp" alt="" />
-            <img src="./assets/payments/amex.webp" alt="" />
-            <img src="./assets/payments/diners.webp" alt="" />
-            <img src="./assets/payments/discover.webp" alt="" />
-            <img src="./assets/payments/boleto.webp" alt="" />
-            <img src="./assets/payments/pix.webp" alt="" />
+            <img
+              src="./assets/payments/visa.webp"
+              alt="imagem ilustrativa da bandeira Visa"
+            />
+            <img
+              src="./assets/payments/mastercard.webp"
+              alt="imagem ilustrativa da bandeira Mastercard"
+            />
+            <img
+              src="./assets/payments/amex.webp"
+              alt="imagem ilustrativa da bandeira Amex"
+            />
+            <img
+              src="./assets/payments/diners.webp"
+              alt="imagem ilustrativa da bandeira Diners"
+            />
+            <img
+              src="./assets/payments/discover.webp"
+              alt="imagem ilustrativa da bandeira Discover"
+            />
+            <img
+              src="./assets/payments/boleto.webp"
+              alt="imagem ilustrativa da bandeira Boleto"
+            />
+            <img
+              src="./assets/payments/pix.webp"
+              alt="imagem ilustrativa da bandeira do Pix"
+            />
           </span>
         </div>
       </div>
