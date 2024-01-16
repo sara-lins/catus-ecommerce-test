@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  height: 35.438rem;
+  height: 40.438rem;
 
   display: flex;
   flex-direction: column;
@@ -9,13 +9,17 @@
 }
 
 .section h4 {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
+
+  @media (min-width: 1024px) {
+    font-size: 1.75rem;
+  }
 }
 
 .title {
   width: 100%;
   max-width: 75rem;
-  height: 3.375rem;
+  height: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -23,6 +27,10 @@
   align-items: center;
 
   border-bottom: 1px solid #cfcfcf;
+
+  @media (min-width: 1024px) {
+    height: 3.375rem;
+  }
 }
 
 .detail {
@@ -32,10 +40,37 @@
 }
 
 .products {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  overflow-x: scroll;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
+.productsContainer {
   max-width: 75rem;
   margin-top: 2rem;
+  margin-left: 29rem;
 
   display: flex;
   justify-content: center;
   gap: 1rem;
+
+  @media (min-width: 688px) {
+    margin-left: 0;
+  }
+
+  @media (min-width: 1024px) {
+    margin-left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
 }
